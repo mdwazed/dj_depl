@@ -1,1 +1,2 @@
 # dj_depl
+Minimal django docarized deployment in production with Nginx and uwsgi. Creates two separate container. One contain nginx and another contain uwsgi and django app. Containers communicates through the default network. 
